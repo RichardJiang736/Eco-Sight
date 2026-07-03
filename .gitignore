@@ -1,0 +1,26 @@
+.venv
+.env
+
+# Model weights (large binaries — download or train separately)
+models/
+*.pt
+
+# Benchmark results
+results/
+
+# Test artifacts
+test_video.mp4
+*.mp4
+*.mov
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
